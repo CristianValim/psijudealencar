@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    background: ${({ theme }) => theme.COLORS.PURPLE};
     font-family: ${({ theme }) => theme.FONTS.MAIN_FONT};
 
-    padding-inline: 10%;
-    height: 100svh;
     position: relative;
-    background: ${({ theme }) => theme.COLORS.PURPLE};
-    display: flex;
-    gap: 5rem;
-    align-items: center;
-    justify-content: space-between;
+    height: 100svh;
+    padding-inline: 10%;
 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-content: center;
+    gap: 10%;
     .flex-wrapper {
         display: grid;
         place-items: center;

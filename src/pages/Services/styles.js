@@ -16,7 +16,7 @@ export const Container = styled.div`
         font-size: clamp(3.2rem, calc(2rem + 2vw), 5rem);
         font-weight: bold;
 
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
     
     .flex-wrapper ul{
@@ -24,8 +24,15 @@ export const Container = styled.div`
         align-items: center;
         justify-content: space-evenly;
         text-align: center;
-
+        line-height: 2;
         font-size: 1.4rem;
+
+        img {
+            display: block;
+            margin-inline: auto;
+            margin-bottom: 3rem;
+            max-width: 10rem;
+        }
     }
 
     .logoPurple {
