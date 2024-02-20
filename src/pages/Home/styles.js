@@ -7,6 +7,22 @@ export const Container = styled.div`
     display: grid;
     place-content: center;
 
+    .banner {
+        height: 5vh;
+        position: absolute;
+        width: 100%;
+        z-index: 5;
+        background-color: #FFF;
+    }
+
+    .top {
+        top: 5vh;
+    }
+
+    .bottom {
+        bottom: 0;
+    }
+
     .flex-wrapper {
         display: grid;
         place-items: center;
@@ -21,7 +37,7 @@ export const Container = styled.div`
         font-size: 1.4rem;
         background: #FFF;
         padding: 1rem 3rem;
-        border-radius: 3rem;
+        border-radius: 10rem;
         
         a {
             display: flex;

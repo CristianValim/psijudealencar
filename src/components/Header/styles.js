@@ -4,10 +4,10 @@ export const Container = styled.header`
     font-family: ${({ theme }) => theme.FONTS.MAIN_FONT};
     font-size: 1.4rem;
 
+    width: 100%;
     min-height:  5vh;
     background: #FFF;
-    top: 0;
-    position: sticky;
+    position: fixed;
     z-index: 10;
 
     nav {
@@ -16,7 +16,7 @@ export const Container = styled.header`
     }
 
     a {
-      padding: 1.5rem 2rem;
+      padding: 2rem 2.5rem;
       border-radius: 2rem 2rem 0 0;
     }
 

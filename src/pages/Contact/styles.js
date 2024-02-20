@@ -8,6 +8,7 @@ export const Container = styled.div`
     position: relative;
     background: ${({ theme }) => theme.COLORS.PURPLE};
     display: flex;
+    gap: 5rem;
     align-items: center;
     justify-content: space-between;
 
@@ -36,12 +37,12 @@ export const Container = styled.div`
         button {
             margin-top: 5rem;
             grid-column: span 2;
-            font-size: 3.5rem;
+            font-size: 2.5rem;
 
             background: #FFF;
             padding: 1.5rem;
-            border-radius: 3rem;
-            width: 50rem;
+            border-radius: 10rem;
+            width: 100%;
         
         a {
             display: flex;
@@ -63,7 +64,7 @@ export const Container = styled.div`
         font-weight: 600;
         background: #FFF;
         border-radius: 3rem;
-        min-width: 60rem;
+        min-width: 100%;
         padding: 2rem;
 
         span {
@@ -77,7 +78,7 @@ export const Container = styled.div`
         border-radius: 4rem;
         border-style: none;
         min-height: 33rem;
-        min-width: 60rem;
+        min-width: 100%;
     }
 }
 

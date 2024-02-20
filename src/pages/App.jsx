@@ -12,13 +12,13 @@ export function App() {
     useScrollSnap({ ref: scrollRef, duration: 50, delay: 20 });
     
     return (
-    <div 
-    ref={scrollRef} >
-        <Home />
-        <AboutMe />
-        <Services />
-        <FAQ />
-        <Contact />
-    </div>
+        <div 
+        ref={scrollRef} >
+            <Home />
+            <AboutMe />
+            <Services />
+            <FAQ />
+            <Contact />
+        </div>
     )
 }

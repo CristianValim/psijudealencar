@@ -5,7 +5,7 @@ export const Container = styled.div`
     font-size: clamp(1.4rem, calc(1rem + 1vw), 1.8rem);
     height: 100vh;
     padding-inline: 10%;
-    line-height: 2;
+    line-height: 1.5;
 
     display: grid;
     place-content: center;
@@ -36,7 +36,7 @@ export const Container = styled.div`
    
     .profile-pic {
         grid-column-start: 1;
-        min-height: 100%;
+        height: 100%;
         object-fit: cover;
         border-radius: 8rem;
         box-shadow: .7rem .7rem .5rem rgba(0, 0, 0, 0.4);
