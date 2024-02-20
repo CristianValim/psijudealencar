@@ -1,30 +1,30 @@
 import { Container } from './styles';
 
 import logoGreen from '../../assets/logo-green.png';
-import aboutMe from '../../assets/aboutMe.jpg'
+import aboutMe from '../../assets/aboutMe.png'
 
 
 export function AboutMe() {
   return (
     <Container id='sobre-mim'>
-            <h1>sobre mim</h1>
 
             <div className="flex-wrapper">
+            <h1>sobre mim</h1>
                 <img className='profile-pic' src={aboutMe} alt="Imagem de Juliana de Alencar com a mao no queixo e olhando para baixo" />
 
                 <div className="about">
-                    <p>Sou <span>psicóloga</span> formada pela Universidade Federal de
-                        Santa Catarina (UFSC) e atuo na clínica desde 2019.
+                    <p>Olá! Meu nome é <span>Juliana Barbosa de Alencar</span> (CRP
+                    12/20214) e sou <span>psicóloga</span> formada pela Universidade
+                    Federal de Santa Catarina (UFSC) e atuo como psicóloga
+                    clínica pela abordagem da <span>Sistêmica</span> e algumas
+                    influências da <span>Esquizoanálise</span>. Ofereço atendimento
+                    online e presencial para adolescentes, jovens e adultos.
                     </p>
-                    <p className='ident' >Atualmente (2024) estou ﬁnalizando meu mestrado
-                        em Artes Cênicas na Universidade do Estado de Santa
-                        Catarina (UDESC) e procuro exercer uma clínica
-                        atravessada também pela <span>sensibilidade</span> e pela <span>poética </span>
-                        que adquiri com o teatro.
-                    </p>
-                    <p className='ident' >Atuo na clínica com foco em <span>adolescentes</span>, <span>jovens</span> e 
-                        <span> adultos</span>. Atualmente faço parte da equipe do Projeto
-                        Saúde Mental Camarada (<a href="https://soberana.tv/#projects-hr" target="_blank" rel="noopener noreferrer">SAMECA</a>).
+                    <p className="ident">Sou <span>Mestre em Artes Cênicas</span> pela Universidade do
+                    Estado de Santa Catarina (UDESC) e procuro exercer uma
+                    clínica atravessada também pela <span>sensibilidade, poética,
+                    escuta afetiva, potente, sensível às vulnerabilidades</span>, e
+                    principalmente, baseada numa <span>psicologia ética</span>.
                     </p>
                 </div>
             </div>

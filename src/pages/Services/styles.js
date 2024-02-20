@@ -5,45 +5,33 @@ export const Container = styled.div`
     position: relative;
     background: ${({ theme }) => theme.COLORS.GREEN};
 
-    display: grid;
-    place-content: center;
+    padding-inline: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     h1 {
         font-family: ${({ theme }) => theme.FONTS.MAIN_FONT};
         color: ${({ theme }) => theme.COLORS.CREAM};
-        font-size: 2.4rem;
+        font-size: clamp(3.2rem, calc(2rem + 2vw), 5rem);
         font-weight: bold;
 
-        margin-bottom: 2rem;
+        margin-bottom: 5%;
     }
     
     .flex-wrapper ul{
         display: flex;
-        gap: 5rem;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
 
-        li {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-
-            color: ${({ theme }) => theme.COLORS.BLACK};
-            line-height: 2.5rem;
-            font-size: 1.4rem;
-            font-family: ${({ theme }) => theme.FONTS.INNER_FONT};
-
-            width: 15rem;
-            height: 15rem;
-            background: #fff;
-            border-radius: 3rem;
-            box-shadow: .7rem .7rem .5rem rgba(0, 0, 0, 0.4);
-        }
+        font-size: 1.4rem;
     }
 
     .logoPurple {
         max-width: 15%;
         position: absolute;
-        bottom: 10%;
-        right: 10%;
+        bottom: 5%;
+        right: 5%;
     }
 `

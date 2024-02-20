@@ -9,10 +9,11 @@ export function Services() {
 
             <div className="flex-wrapper">
                 <ul>
-                    <li>clínica <br/> sensível e <br/> poética</li>
-                    <li>psicoterapia <br/> com base no construcionismo <br/> social</li>
-                    <li>atendimento <br/> de crianças, adolescentes <br/> e adultos</li>
-                    <li>atendimento <br/> online e <br/> presencial</li>
+                    <li>Clínica <br/> sensível e <br/> poética</li>
+                    <li>Psicoterapia <br/> com base no <br/> construcionismo <br/> social</li>
+                    <li>Atendimento <br/> de adolescentes <br/> e adultos</li>
+                    <li>Atendimento <br/> online e <br/> presencial</li>
+                    <li>Experiência em <br/> atendimento <br/> com população <br/> LGBTQIA+</li>
                 </ul>
             </div>
 

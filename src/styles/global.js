@@ -21,6 +21,11 @@ export default createGlobalStyle`
       scroll-behavior: smooth;
     }
     
+    body {
+      font-family: ${({ theme }) => theme.FONTS.MAIN_FONT};
+      color: ${({ theme }) => theme.COLORS.BLACK};
+    }
+
     img {
         max-width: 100%;
         height: auto;

@@ -1,5 +1,7 @@
 import { Container } from './styles';
 import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 import logoGreen from '../../assets/logo-green-square.png';
 
@@ -8,7 +10,8 @@ export function Contact() {
     <Container id='contato'>
             <div className="flex-wrapper">
               <img className='logoGreen' src={logoGreen} alt="Logo Juliana de Alencar" /> 
-              <button><a href="https://wa.me/5548998468897" target='_blank' rel="noopener noreferrer"><FaWhatsapp size="3rem"/> agende uma sessão</a></button>
+              <Link className="instalogo" to="https://instagram.com/psi.judealencar" target='_blank'><FaInstagram /> <span>@psi.judealencar</span></Link>
+              <button><Link to="https://wa.me/5548998468897" target='_blank' rel="noopener noreferrer"><FaWhatsapp size="5rem"/> agende uma sessão</Link></button>
             </div>
 
             <div className="maps">

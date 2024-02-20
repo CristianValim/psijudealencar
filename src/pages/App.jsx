@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { Home } from './Home';
 import { AboutMe } from './AboutMe';
 import { Services } from './Services';
+import { FAQ } from './FAQ';
 import { Contact } from './Contact';
 
 export function App() {
@@ -11,10 +12,12 @@ export function App() {
     useScrollSnap({ ref: scrollRef, duration: 50, delay: 20 });
     
     return (
-    <div ref={scrollRef}>
+    <div 
+    ref={scrollRef} >
         <Home />
         <AboutMe />
         <Services />
+        <FAQ />
         <Contact />
     </div>
     )
