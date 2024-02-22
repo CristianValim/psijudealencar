@@ -9,6 +9,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     padding-inline: 10%;
+
     h1 {
         font-family: ${({ theme }) => theme.FONTS.INNER_FONT};
         color: ${({ theme }) => theme.COLORS.GREEN};
@@ -53,13 +54,21 @@ export const Container = styled.div`
         display: grid;
         place-content: center;
         position: absolute;
-        bottom: -1rem;
-        right: -1rem;
         border-radius: 50%;
         width: 4rem;
         height: 4rem;
         background: ${({ theme }) => theme.COLORS.GREEN};
         box-shadow: .3rem .3rem .5rem rgba(0, 0, 0, 0.4);
+    }
+
+    .plus {
+        bottom: -1rem;
+        right: -1rem;
+    }
+
+    .minus {
+        top: -1rem;
+        right: -1rem;
     }
 
     .flex-wrapper p {
@@ -81,5 +90,28 @@ export const Container = styled.div`
         position: absolute;
         bottom: 5%;
         right: 5%;
+    }
+
+    .answer-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.5); /* Adiciona um fundo escuro semi-transparente */
+        z-index: 1000; /* Certifique-se de que a caixa de resposta esteja acima de outros elementos */
+    }
+
+    .answer {
+        position: relative;
+        padding: 6% 10%;
+        background: #FFF;
+        border-radius: 3rem;
+        text-align: start;
+        max-width: 80%; /* Define a largura máxima da caixa de resposta */
+        z-index: 1001; /* Garante que a caixa de resposta esteja acima da camada de fundo */
     }
 `

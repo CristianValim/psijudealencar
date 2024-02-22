@@ -13,7 +13,7 @@ export const Container = styled.div`
     position: relative;
     background: ${({ theme }) => theme.COLORS.GREY};
 
-
+    text-align: justify;
     h1 {
         color: ${({ theme }) => theme.COLORS.PURPLE};
         font-size: clamp(3.2rem, calc(2rem + 2vw), 5rem);
