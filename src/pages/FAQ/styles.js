@@ -1,4 +1,22 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const scaleUpCenter = keyframes`
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+`;
+
+const scaleDownCenter = keyframes`
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+`;
 
 export const Container = styled.div`
     height: 100svh;
@@ -67,8 +85,10 @@ export const Container = styled.div`
     }
 
     .minus {
-        top: -1rem;
-        right: -1rem;
+        top: -2rem;
+        right: -2rem;
+        width: 7rem;
+        height: 7rem;
     }
 
     .flex-wrapper p {
@@ -107,11 +127,48 @@ export const Container = styled.div`
 
     .answer {
         position: relative;
-        padding: 6% 10%;
+        padding: 5rem 7rem;
         background: #FFF;
-        border-radius: 3rem;
+        border-radius: 5rem;
         text-align: start;
         max-width: 80%; /* Define a largura máxima da caixa de resposta */
         z-index: 1001; /* Garante que a caixa de resposta esteja acima da camada de fundo */
+    
+        &.open {
+            animation: ${scaleUpCenter} 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        }
+
+        &.closed {
+            animation: ${scaleDownCenter} 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: ${({theme}) => theme.COLORS.PURPLE};
+            font-weight: 400;
+        }
+
+        .text {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5%;
+        }
+
+        .text p{
+            font-size: 1.6rem;
+            text-align: start;
+            font-style: normal;
+            font-weight: 400;
+
+            margin-bottom: 2rem;
+        }
+
+        .row-start {
+            grid-row-start: 1;
+        }
+
+        .row-end {
+            grid-row-end: 2;
+        }
     }
 `

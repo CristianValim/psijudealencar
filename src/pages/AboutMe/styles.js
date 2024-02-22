@@ -28,10 +28,6 @@ export const Container = styled.div`
         span {
             font-weight: 600;
         }
-
-        .ident {
-            text-indent: 4rem;
-        }
     }
    
     .profile-pic {

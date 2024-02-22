@@ -21,6 +21,10 @@ export default createGlobalStyle`
       scroll-behavior: smooth;
     }
     
+    .ident {
+            text-indent: 4rem;
+        }
+
     body {
       font-family: ${({ theme }) => theme.FONTS.MAIN_FONT};
       color: ${({ theme }) => theme.COLORS.BLACK};
@@ -35,7 +39,7 @@ export default createGlobalStyle`
         background-size: cover;
         shape-margin: 0.75rem;
     }
-    
+
     a {
       text-decoration: none;
       color: inherit;
