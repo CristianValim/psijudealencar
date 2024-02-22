@@ -288,7 +288,7 @@ Error generating stack: `+o.message+`
         }
     }
 `,y0="/psijudealencar/assets/logo-green-PouaJL_i.png",w0="/psijudealencar/assets/aboutMe-b4CXppSy.png";function S0(){return v.jsxs(v0,{id:"sobre-mim",children:[v.jsxs("div",{className:"flex-wrapper",children:[v.jsx("h1",{children:"sobre mim"}),v.jsx("img",{className:"profile-pic",src:w0,alt:"Imagem de Juliana de Alencar com a mao no queixo e olhando para baixo"}),v.jsxs("div",{className:"about",children:[v.jsxs("p",{children:["Olá! Meu nome é ",v.jsx("span",{children:"Juliana Barbosa de Alencar"})," (CRP 12/20214) e sou ",v.jsx("span",{children:"psicóloga"})," formada pela Universidade Federal de Santa Catarina (UFSC) e atuo como psicóloga clínica pela abordagem da ",v.jsx("span",{children:"Sistêmica"})," e algumas influências da ",v.jsx("span",{children:"Esquizoanálise"}),". Ofereço atendimento online e presencial para adolescentes, jovens e adultos."]}),v.jsxs("p",{className:"ident",children:["Sou ",v.jsx("span",{children:"Mestre em Artes Cênicas"})," pela Universidade do Estado de Santa Catarina (UDESC) e procuro exercer uma clínica atravessada também pela ",v.jsx("span",{children:"sensibilidade, poética, escuta afetiva, potente, sensível às vulnerabilidades"}),", e principalmente, baseada numa ",v.jsx("span",{children:"psicologia ética"}),"."]})]})]}),v.jsx("img",{className:"logoGreen",src:y0,alt:"Logo Juliana de Alencar"})]})}const x0=an.div`
-    height: 100svh;
+    height: 100vh;
     position: relative;
     background: ${({theme:e})=>e.COLORS.GREEN};
 
@@ -361,7 +361,7 @@ Error generating stack: `+o.message+`
     transform: scale(0.5);
   }
 `,T0=an.div`
-    height: 100svh;
+    height: 100vh;
     position: relative;
     background: ${({theme:e})=>e.COLORS.CREAM};
 
@@ -537,7 +537,7 @@ Error generating stack: `+o.message+`
     font-family: ${({theme:e})=>e.FONTS.MAIN_FONT};
 
     position: relative;
-    height: 100svh;
+    height: 100vh;
     padding-inline: 10%;
     display: grid;
     place-content: center;
