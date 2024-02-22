@@ -56,4 +56,9 @@ export default createGlobalStyle`
         background: transparent;
         cursor: pointer;
     }
+    
+        header {
+        display: none;
+      } 
+    }
 `

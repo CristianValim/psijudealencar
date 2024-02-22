@@ -59,7 +59,7 @@ export const Container = styled.div`
         font-size: clamp(1.2rem, calc(1rem + 1vw), 1.4rem);
         line-height: 2.2rem;
         
-        width: 17rem;
+        max-width: 17rem;
         height: 12rem;
         border-radius: 3rem;
         padding: 2rem;
@@ -85,6 +85,7 @@ export const Container = styled.div`
     }
 
     .minus {
+        position: fixed;
         top: -2rem;
         right: -2rem;
         width: 7rem;
@@ -131,9 +132,11 @@ export const Container = styled.div`
         background: #FFF;
         border-radius: 5rem;
         text-align: start;
-        max-width: 80%; /* Define a largura máxima da caixa de resposta */
-        z-index: 1001; /* Garante que a caixa de resposta esteja acima da camada de fundo */
-    
+        max-width: 80%;
+        max-height: 80%;
+        z-index: 1001;
+        
+        overflow: hidden;
         &.open {
             animation: ${scaleUpCenter} 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
         }
@@ -146,12 +149,6 @@ export const Container = styled.div`
             font-size: 2rem;
             color: ${({theme}) => theme.COLORS.PURPLE};
             font-weight: 400;
-        }
-
-        .text {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 5%;
         }
 
         .text p{
@@ -169,6 +166,28 @@ export const Container = styled.div`
 
         .row-end {
             grid-row-end: 2;
+        }
+    }
+
+    @media (max-width: 600px) {
+
+        h1 {
+            position: absolute;
+            top: 3rem;
+            max-width: 25rem;
+        }
+        
+        .flex-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .flex-wrapper ul {
+            margin-inline: auto;
+        }
+
+        .logoWhite {
+            max-width: 30%;
         }
     }
 `

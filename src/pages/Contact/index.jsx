@@ -11,7 +11,7 @@ export function Contact() {
             <div className="flex-wrapper">
               <img className='logoGreen' src={logoGreen} alt="Logo Juliana de Alencar" /> 
               <Link className="instalogo" to="https://instagram.com/psi.judealencar" target='_blank'><FaInstagram /> <span>@psi.judealencar</span></Link>
-              <button><Link to="https://wa.me/5548998468897" target='_blank' rel="noopener noreferrer"><FaWhatsapp size="5rem"/> agende uma sessão</Link></button>
+              <button><Link to="https://wa.me/5548998468897" target='_blank' rel="noopener noreferrer"><FaWhatsapp size="5rem"/>agende uma sessão</Link></button>
             </div>
 
             <div className="maps">

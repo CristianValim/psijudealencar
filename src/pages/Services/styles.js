@@ -36,9 +36,27 @@ export const Container = styled.div`
     }
 
     .logoPurple {
-        max-width: 15%;
+        max-width: 30%;
         position: absolute;
         bottom: 5%;
         right: 5%;
+    }
+
+    @media (max-width: 600px) {
+        h1 {
+            position: absolute;
+            top: 3rem;
+            max-width: 21rem;
+        }
+
+        .flex-wrapper ul {
+            flex-wrap: wrap;
+        }
+    }
+
+    @media (min-width: 600px) {
+        .logoPurple {
+            max-width: 15%;
+        }
     }
 `

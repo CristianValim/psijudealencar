@@ -2,18 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     position: relative;
-    height: 100vh;
+    height: 100svh;
     background: ${({ theme }) => theme.COLORS.CREAM};
     display: grid;
     place-content: center;
-
-    .banner {
-        height: 5vh;
-        position: absolute;
-        width: 100%;
-        z-index: 5;
-        background-color: #FFF;
-    }
 
     .top {
         top: 5vh;
@@ -59,6 +51,16 @@ export const Container = styled.div`
         span {
             font-weight: 400;
             font-style: normal;
+        }
+    }
+
+    @media (min-width: 600px) {
+            .banner {
+                height: 5vh;
+                position: absolute;
+                width: 100%;
+                z-index: 5;
+                background-color: #FFF;
         }
     }
 `

@@ -14,34 +14,53 @@ export const Container = styled.div`
     background: ${({ theme }) => theme.COLORS.GREY};
 
     text-align: justify;
+
     h1 {
         color: ${({ theme }) => theme.COLORS.PURPLE};
         font-size: clamp(3.2rem, calc(2rem + 2vw), 5rem);
         font-weight: bold;
     }
-
-    .flex-wrapper {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 10rem;
-
-        span {
-            font-weight: 600;
-        }
-    }
    
     .profile-pic {
-        grid-column-start: 1;
-        height: 100%;
+        margin-bottom: 5rem;
         object-fit: cover;
         border-radius: 8rem;
         box-shadow: .7rem .7rem .5rem rgba(0, 0, 0, 0.4);
     }
 
     .logoGreen {
-        max-width: 15%;
+        max-width: 30%;
         position: absolute;
         bottom: 5%;
         right: 5%;
+    }
+
+    @media (max-width: 600px) {
+       h1 {
+           position: absolute;
+           top: 3rem;
+       }
+    }
+
+    @media (min-width: 600px) {
+
+        .profile-pic {
+            grid-column-start: 1;
+            height: 100%;
+        }
+
+        .flex-wrapper {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 10rem;
+
+            span {
+                font-weight: 600;
+            }
+        }
+
+        .logoGreen {
+            max-width: 15%;
+        }
     }
 `
