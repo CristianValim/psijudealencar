@@ -34,7 +34,7 @@ export const Container = styled.div`
             display: block;
             margin-inline: auto;
             margin-bottom: 1rem;
-            max-width: 10rem;
+            max-width: 8rem;
         }
     }
 

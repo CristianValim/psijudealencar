@@ -9,15 +9,6 @@ const scaleUpCenter = keyframes`
   }
 `;
 
-const scaleDownCenter = keyframes`
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0.5);
-  }
-`;
-
 export const Container = styled.div`
     height: 100vh;
     position: relative;
@@ -135,13 +126,9 @@ export const Container = styled.div`
         max-height: 80%;
         z-index: 1001;
         
-        overflow: hidden;
+
         &.open {
             animation: ${scaleUpCenter} 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-        }
-
-        &.closed {
-            animation: ${scaleDownCenter} 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
         }
 
         h1 {
@@ -169,6 +156,16 @@ export const Container = styled.div`
     }
 
     @media (max-width: 600px) {
+        
+        .text {
+            overflow-y: scroll;
+            max-height: 50rem;
+            margin-top: 2rem;
+            h1 {
+                background: #FFF;
+                margin-right: 3rem;
+            }
+        }
 
         h1 {
             position: absolute;
@@ -180,8 +177,8 @@ export const Container = styled.div`
             display: flex;
             flex-wrap: wrap;
 
-            p {
-                margin-top: 5rem;
+            ul {
+                padding-bottom: 3rem;
             }
         }
 

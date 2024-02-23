@@ -24,7 +24,7 @@ export function FAQ() {
         <ul>
           {questions.map((question, index) => (
             <li key={index}>
-              <div className="question" onClick={() => toggleExpanded(index)}>
+              <div className="question">
                 <span>{question.question}</span>
                 <button className='plus' onClick={() => toggleExpanded(index)}><AiOutlinePlus size="2rem" /></button>
               </div>
