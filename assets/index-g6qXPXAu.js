@@ -122,10 +122,12 @@ Error generating stack: `+o.message+`
         cursor: pointer;
     }
     
-        header {
+    @media (max-width: 600px) {
+      header {
         display: none;
       } 
     }
+    
 `,J1=an.header`
     font-family: ${({theme:e})=>e.FONTS.MAIN_FONT};
     font-size: 1.4rem;
@@ -224,9 +226,9 @@ Error generating stack: `+o.message+`
                 background-color: #FFF;
         }
     }
-`,Hd="/psijudealencar/assets/logo-purple-_LJKePB_.png";var Qd={color:void 0,size:void 0,className:void 0,style:void 0,attr:void 0},Ga=b.createContext&&b.createContext(Qd),u0=["attr","size","title"];function a0(e,t){if(e==null)return{};var n=c0(e,t),r,i;if(Object.getOwnPropertySymbols){var o=Object.getOwnPropertySymbols(e);for(i=0;i<o.length;i++)r=o[i],!(t.indexOf(r)>=0)&&Object.prototype.propertyIsEnumerable.call(e,r)&&(n[r]=e[r])}return n}function c0(e,t){if(e==null)return{};var n={},r=Object.keys(e),i,o;for(o=0;o<r.length;o++)i=r[o],!(t.indexOf(i)>=0)&&(n[i]=e[i]);return n}function io(){return io=Object.assign?Object.assign.bind():function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)Object.prototype.hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e},io.apply(this,arguments)}function Ya(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);t&&(r=r.filter(function(i){return Object.getOwnPropertyDescriptor(e,i).enumerable})),n.push.apply(n,r)}return n}function oo(e){for(var t=1;t<arguments.length;t++){var n=arguments[t]!=null?arguments[t]:{};t%2?Ya(Object(n),!0).forEach(function(r){f0(e,r,n[r])}):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(n)):Ya(Object(n)).forEach(function(r){Object.defineProperty(e,r,Object.getOwnPropertyDescriptor(n,r))})}return e}function f0(e,t,n){return t=d0(t),t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function d0(e){var t=p0(e,"string");return typeof t=="symbol"?t:String(t)}function p0(e,t){if(typeof e!="object"||e===null)return e;var n=e[Symbol.toPrimitive];if(n!==void 0){var r=n.call(e,t||"default");if(typeof r!="object")return r;throw new TypeError("@@toPrimitive must return a primitive value.")}return(t==="string"?String:Number)(e)}function Gd(e){return e&&e.map((t,n)=>b.createElement(t.tag,oo({key:n},t.attr),Gd(t.child)))}function To(e){return t=>b.createElement(m0,io({attr:oo({},e.attr)},t),Gd(e.child))}function m0(e){var t=n=>{var{attr:r,size:i,title:o}=e,l=a0(e,u0),s=i||n.size||"1em",u;return n.className&&(u=n.className),e.className&&(u=(u?u+" ":"")+e.className),b.createElement("svg",io({stroke:"currentColor",fill:"currentColor",strokeWidth:"0"},n.attr,r,l,{className:u,style:oo(oo({color:e.color||n.color},n.style),e.style),height:s,width:s,xmlns:"http://www.w3.org/2000/svg"}),o&&b.createElement("title",null,o),e.children)};return Ga!==void 0?b.createElement(Ga.Consumer,null,n=>t(n)):t(Qd)}function h0(e){return To({tag:"svg",attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"},child:[]}]})(e)}function Yd(e){return To({tag:"svg",attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"},child:[]}]})(e)}function g0(){return v.jsxs(s0,{id:"home",children:[v.jsx("div",{className:"banner bottom"}),v.jsxs("div",{className:"flex-wrapper",children:[v.jsx("img",{src:Hd,alt:"Logo Juliana de Alencar"}),v.jsx("button",{children:v.jsxs("a",{href:"https://wa.me/5548998468897",target:"_blank",rel:"noopener noreferrer",children:[v.jsx(Yd,{size:"2.5rem"}),"agende uma sessão"]})})]}),v.jsxs("p",{children:["Deixe tudo acontecer a você ",v.jsx("br",{}),"Beleza e terror ",v.jsx("br",{}),"Apenas continue ",v.jsx("br",{}),"Nenhum sentimento é final ",v.jsx("br",{})," ",v.jsx("br",{}),v.jsx("span",{children:"Rainer Maria Rilke"})]}),v.jsx("div",{className:"banner top"})]})}const v0=an.div`
+`,Hd="/psijudealencar/assets/logo-purple-_LJKePB_.png";var Qd={color:void 0,size:void 0,className:void 0,style:void 0,attr:void 0},Ga=b.createContext&&b.createContext(Qd),u0=["attr","size","title"];function a0(e,t){if(e==null)return{};var n=c0(e,t),r,i;if(Object.getOwnPropertySymbols){var o=Object.getOwnPropertySymbols(e);for(i=0;i<o.length;i++)r=o[i],!(t.indexOf(r)>=0)&&Object.prototype.propertyIsEnumerable.call(e,r)&&(n[r]=e[r])}return n}function c0(e,t){if(e==null)return{};var n={},r=Object.keys(e),i,o;for(o=0;o<r.length;o++)i=r[o],!(t.indexOf(i)>=0)&&(n[i]=e[i]);return n}function io(){return io=Object.assign?Object.assign.bind():function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)Object.prototype.hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e},io.apply(this,arguments)}function Ya(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);t&&(r=r.filter(function(i){return Object.getOwnPropertyDescriptor(e,i).enumerable})),n.push.apply(n,r)}return n}function oo(e){for(var t=1;t<arguments.length;t++){var n=arguments[t]!=null?arguments[t]:{};t%2?Ya(Object(n),!0).forEach(function(r){f0(e,r,n[r])}):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(n)):Ya(Object(n)).forEach(function(r){Object.defineProperty(e,r,Object.getOwnPropertyDescriptor(n,r))})}return e}function f0(e,t,n){return t=d0(t),t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function d0(e){var t=p0(e,"string");return typeof t=="symbol"?t:String(t)}function p0(e,t){if(typeof e!="object"||e===null)return e;var n=e[Symbol.toPrimitive];if(n!==void 0){var r=n.call(e,t||"default");if(typeof r!="object")return r;throw new TypeError("@@toPrimitive must return a primitive value.")}return(t==="string"?String:Number)(e)}function Gd(e){return e&&e.map((t,n)=>b.createElement(t.tag,oo({key:n},t.attr),Gd(t.child)))}function To(e){return t=>b.createElement(m0,io({attr:oo({},e.attr)},t),Gd(e.child))}function m0(e){var t=n=>{var{attr:r,size:i,title:o}=e,l=a0(e,u0),s=i||n.size||"1em",u;return n.className&&(u=n.className),e.className&&(u=(u?u+" ":"")+e.className),b.createElement("svg",io({stroke:"currentColor",fill:"currentColor",strokeWidth:"0"},n.attr,r,l,{className:u,style:oo(oo({color:e.color||n.color},n.style),e.style),height:s,width:s,xmlns:"http://www.w3.org/2000/svg"}),o&&b.createElement("title",null,o),e.children)};return Ga!==void 0?b.createElement(Ga.Consumer,null,n=>t(n)):t(Qd)}function h0(e){return To({tag:"svg",attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"},child:[]}]})(e)}function Yd(e){return To({tag:"svg",attr:{viewBox:"0 0 448 512"},child:[{tag:"path",attr:{d:"M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"},child:[]}]})(e)}function g0(){return v.jsxs(s0,{id:"home",children:[v.jsx("div",{className:"banner top"}),v.jsxs("div",{className:"flex-wrapper",children:[v.jsx("img",{src:Hd,alt:"Logo Juliana de Alencar"}),v.jsx("button",{children:v.jsxs("a",{href:"https://wa.me/5548998468897",target:"_blank",rel:"noopener noreferrer",children:[v.jsx(Yd,{size:"2.5rem"}),"agende uma sessão"]})})]}),v.jsxs("p",{children:["Deixe tudo acontecer a você ",v.jsx("br",{}),"Beleza e terror ",v.jsx("br",{}),"Apenas continue ",v.jsx("br",{}),"Nenhum sentimento é final ",v.jsx("br",{})," ",v.jsx("br",{}),v.jsx("span",{children:"Rainer Maria Rilke"})]}),v.jsx("div",{className:"banner bottom"})]})}const v0=an.div`
     font-family: ${({theme:e})=>e.FONTS.MAIN_FONT};
-    font-size: clamp(1.4rem, calc(1rem + 1vw), 1.8rem);
+    font-size: clamp(1.2rem, calc(1rem + 1vw), 1.8rem);
     height: 100vh;
     padding-inline: 10%;
     line-height: 1.5;
@@ -311,13 +313,16 @@ Error generating stack: `+o.message+`
         align-items: center;
         justify-content: space-evenly;
         text-align: center;
-        line-height: 2;
+        line-height: 1.5;
         font-size: 1.4rem;
 
+        li {
+            margin-bottom: 2rem;
+        }
         img {
             display: block;
             margin-inline: auto;
-            margin-bottom: 3rem;
+            margin-bottom: 1rem;
             max-width: 10rem;
         }
     }
@@ -392,7 +397,7 @@ Error generating stack: `+o.message+`
         margin-left: auto;
         gap: 3rem;
     }
-
+    
     .flex-wrapper ul li {
         position: relative;
         display: grid;
@@ -409,7 +414,7 @@ Error generating stack: `+o.message+`
         background: #FFF;
         box-shadow: .3rem .3rem .5rem rgba(0, 0, 0, 0.4);
     }
-
+    
     button {
         display: grid;
         place-content: center;
@@ -420,12 +425,12 @@ Error generating stack: `+o.message+`
         background: ${({theme:e})=>e.COLORS.GREEN};
         box-shadow: .3rem .3rem .5rem rgba(0, 0, 0, 0.4);
     }
-
+    
     .plus {
         bottom: -1rem;
         right: -1rem;
     }
-
+    
     .minus {
         position: fixed;
         top: -2rem;
@@ -433,28 +438,27 @@ Error generating stack: `+o.message+`
         width: 7rem;
         height: 7rem;
     }
-
+    
     .flex-wrapper p {
         max-width: 50rem;
         text-align: end;
         font-weight: 300;
         font-style: italic;
-        font-size: clamp(1.4rem, calc(1rem + 1vw), 1.8rem);
-        line-height: 2.1rem;
+        font-size: clamp(1.2rem, calc(1rem + 1vw), 1.8rem);
 
         span {
             font-weight: 400;
             font-style: normal;
         }
     }
-
+    
     .logoWhite {
         max-width: 15%;
         position: absolute;
         bottom: 5%;
         right: 5%;
     }
-
+    
     .answer-overlay {
         position: fixed;
         top: 0;
@@ -522,17 +526,22 @@ Error generating stack: `+o.message+`
         .flex-wrapper {
             display: flex;
             flex-wrap: wrap;
+
+            p {
+                margin-top: 5rem;
+            }
         }
 
         .flex-wrapper ul {
             margin-inline: auto;
         }
 
+
         .logoWhite {
             max-width: 30%;
         }
     }
-`,L0="/psijudealencar/assets/logo-black-wUmAgBDT.png",I0=[{question:"A Psicoterapia é mais do que “conversar”?",answer:v.jsxs(v.Fragment,{children:[v.jsxs("div",{className:"row-start",children:[v.jsx("h1",{children:"A Psicoterapia é mais do que “conversar”?"}),v.jsx("p",{children:"Algumas pessoas costumam perguntar “Por que a psicoterapia pode me ajudar? Sempre falo dos meus problemas com amigos, e falar não muda nada”. É muito bom termos amigos que estão disponíveis para nós e prontos para nos escutar. Mas se conversar com os amigos não resolve o seu problema, pode ser que o tipo de conversa que acontece seja apenas isso: “conversa”."}),v.jsx("p",{className:"ident",children:"Ao contrário, a natureza da “conversa” que acontece no contexto da psicoterapia está ligada em um processo mais profundo de autoconhecimento e mudança pessoal. Conversar é apenas “a ponta do iceberg” onde ocorre o processo mais profundo. A “fala” ou “conversa” é apenas um componente óbvio do processo, ocorrendo muito mais que isso ao nível cognitivo e emocional."})]}),v.jsxs("div",{className:"row-end",children:[v.jsx("p",{className:"ident",children:"Apesar da troca de palavras ocorrida entre cliente e psicóloga possa parecer a forma mais óbvia de comunicação, na realidade a terapia pode oferecer uma experiência muito mais rica do que uma mera troca de palavras e conselhos. Porque ao falar, nos escutamos, e temos a oportunidade de ressignificar o que aconteceu. É como se ao mudarmos nossa forma de pensar e enxergar o mundo, temos a oportunidade de viver de uma forma diferente."}),v.jsx("p",{className:"ident",children:"Os pensamentos e sentimentos partilhados pela cliente e as técnicas utilizadas pela psicóloga são, contudo, muito menos importantes do que a relação terapêutica construída entre a dupla. A relação estabelecida com a terapeuta é essencial para a eficácia do processo, por isso é muito importante que o cliente encontre uma profissional com a qual consiga estabelecer uma relação segura, com confiança e confortável, uma profissional que a faça sentir-se ouvida e compreendida."})]})]})},{question:"Em primeiro lugar, o que é psicoterapia?",answer:v.jsxs(v.Fragment,{children:[v.jsxs("div",{className:"row-start",children:[v.jsx("h1",{children:"Em primeiro lugar, o que é psicoterapia?"}),v.jsx("p",{children:"A psicoterapia é um processo onde se analisa e busca a melhoria de sofrimentos psicológicos, redução de angústias, resolução de condições emocionais relacionadas a eventos passados, desconfortos cotidianos, dúvidas e questionamentos sobre si mesmo e sua vida."})]}),v.jsx("div",{className:"row-end",children:v.jsx("p",{className:"ident",children:"Pode-se colocar, de maneira geral, que o objetivo final da psicoterapia é permitir que o indivíduo possa se desenvolver para conseguir viver harmonicamente no seu meio e consigo."})})]})},{question:"Quem pode ou deve fazer sessões com uma psicóloga?",answer:v.jsxs(v.Fragment,{children:[v.jsxs("div",{className:"row-start",children:[v.jsx("h1",{children:"Quem pode ou deve fazer sessões com uma psicóloga?"}),v.jsx("p",{children:"Indo direto ao ponto: não é “coisa de gente louca” e qualquer pessoa pode fazê-la. Essa associação à loucura se deve muito às origens históricas da psicologia como profissão, principalmente pela forte relação com os tratamentos em hospitais psiquiátricos durante o século passado aqui no Brasil."})]}),v.jsxs("div",{className:"row-end",children:[v.jsx("p",{className:"ident",children:"Hoje o cenário é muito diferente, mas essa imagem ainda preconcebida ainda permanece em boa parte da população. Ainda hoje se realizam atendimentos a casos bastante delicados (ex: psicoses, transtornos dissociativos, de personalidade, entre outros) em hospitais e clínicas, mas a atuação do psicólogo é muito mais abrangente. Eu coloquei propositalmente “sessões com um psicólogo” porque os atendimentos não se resumem a trabalhar sobre os transtornos psicológicos."}),v.jsx("p",{className:"ident",children:"Qualquer pessoa pode recorrer a esse atendimento independente de idade, crenças, capacidades cognitivas, tipo de problemas ou situações pelas quais está passando."})]})]})},{question:"Quantos tipos de psicoterapia existem?",answer:v.jsxs(v.Fragment,{children:[v.jsxs("div",{className:"row-start",children:[v.jsx("h1",{children:"Quantos tipos de psicoterapia existem?"}),v.jsx("p",{children:"Tantas quantos psicoterapeutas existentes. É verdade que existe um número limitado de abordagens teóricas - e ainda são diversas! - mas cada processo psicoterapêutico depende da formação do psicólogo, da sua experiência pessoal e profissional, e principalmente, da capacidade em estabelecer um vínculo de confiança com a paciente."}),v.jsx("p",{className:"ident",children:"Podemos pensar nas abordagens teóricas como eixos de referência para cada tipo de psicoterapia (ex. psicanálise freudiana, psicanálise lacaniana, terapia analítico-comportamental, terapia cognitiva, terapia sistêmica, psicodrama, gestalt terapia, terapia centrada na pessoa, histórico-dialética, etc.), mas onde cada relação terapêutica se tornará única por envolver uma terapeuta [com sua formação e leitura própria sobre cada caso] atendendo um paciente com sua história de vida também única e individual."})]}),v.jsxs("div",{className:"row-end",children:[v.jsx("p",{className:"ident",children:"A eficácia da terapia tem muito mais a ver com a capacidade da psicoterapeuta em formar e manter vínculos com diferentes pessoas, se mostrarem empáticos e de se envolver e estudar sobre terapia para além do momento da clínica."}),v.jsx("p",{className:"ident",children:"Algo importante de ressaltar, é que apesar das disputas teóricas entre abordagens, não há diferenças significativas de desfecho quando são comparadas entre si. Em outras palavras, em termos de resultados, as teorias possivelmente importam bem menos do que gostamos de acreditar. "})]})]})}];function $0(){const[e,t]=z.useState(null),n=i=>{t(i===e?null:i)},r=()=>{t(null)};return v.jsxs(T0,{id:"faq",children:[v.jsx("h1",{children:"perguntas frequentes"}),v.jsxs("div",{className:"flex-wrapper",children:[v.jsx("ul",{children:I0.map((i,o)=>v.jsxs("li",{children:[v.jsxs("div",{className:"question",onClick:()=>n(o),children:[v.jsx("span",{children:i.question}),v.jsx("button",{className:"plus",onClick:()=>n(o),children:v.jsx(j0,{size:"2rem"})})]}),e===o&&v.jsx("div",{className:"answer-overlay",children:v.jsxs("div",{className:e!==null?"answer open":"answer closed",children:[v.jsx("div",{className:"text",children:i.answer}),v.jsx("button",{className:"minus",onClick:r,children:v.jsx(O0,{size:"3rem"})})]})})]},o))}),v.jsxs("p",{children:["Peço-lhe, tanto quanto puder, caro senhor, que seja paciente com tudo o que não esteja resolvido em seu coração e tente ter amor pelas próprias perguntas, como se fossem quartos trancados ou livros escritos em uma língua estrangeira. Não busque agora as respostas que não lhe podem ser dadas, porque não poderia vivê-las.",v.jsx("br",{}),"E é disso que se trata, de viver tudo.",v.jsx("br",{}),"Viva agora as perguntas.",v.jsx("br",{}),"Talvez, então, gradativamente, sem notar, em algum dia distante, você venha viver nas respostas.",v.jsx("br",{}),v.jsx("br",{}),v.jsx("span",{children:"Rainer Maria Rilke, em Cartas a um Jovem Poeta"})]})]}),v.jsx("img",{className:"logoWhite",src:L0,alt:"Logo Juliana de Alencar"})]})}const F0=an.div`
+`,L0="/psijudealencar/assets/logo-black-wUmAgBDT.png",I0=[{question:"A Psicoterapia é mais do que “conversar”?",answer:v.jsxs(v.Fragment,{children:[v.jsxs("div",{className:"row-start",children:[v.jsx("h1",{children:"A Psicoterapia é mais do que “conversar”?"}),v.jsx("p",{children:"Algumas pessoas costumam perguntar “Por que a psicoterapia pode me ajudar? Sempre falo dos meus problemas com amigos, e falar não muda nada”. É muito bom termos amigos que estão disponíveis para nós e prontos para nos escutar. Mas se conversar com os amigos não resolve o seu problema, pode ser que o tipo de conversa que acontece seja apenas isso: “conversa”."}),v.jsx("p",{className:"ident",children:"Ao contrário, a natureza da “conversa” que acontece no contexto da psicoterapia está ligada em um processo mais profundo de autoconhecimento e mudança pessoal. Conversar é apenas “a ponta do iceberg” onde ocorre o processo mais profundo. A “fala” ou “conversa” é apenas um componente óbvio do processo, ocorrendo muito mais que isso ao nível cognitivo e emocional."})]}),v.jsxs("div",{className:"row-end",children:[v.jsx("p",{className:"ident",children:"Apesar da troca de palavras ocorrida entre cliente e psicóloga possa parecer a forma mais óbvia de comunicação, na realidade a terapia pode oferecer uma experiência muito mais rica do que uma mera troca de palavras e conselhos. Porque ao falar, nos escutamos, e temos a oportunidade de ressignificar o que aconteceu. É como se ao mudarmos nossa forma de pensar e enxergar o mundo, temos a oportunidade de viver de uma forma diferente."}),v.jsx("p",{className:"ident",children:"Os pensamentos e sentimentos partilhados pela cliente e as técnicas utilizadas pela psicóloga são, contudo, muito menos importantes do que a relação terapêutica construída entre a dupla. A relação estabelecida com a terapeuta é essencial para a eficácia do processo, por isso é muito importante que o cliente encontre uma profissional com a qual consiga estabelecer uma relação segura, com confiança e confortável, uma profissional que a faça sentir-se ouvida e compreendida."})]})]})},{question:"Em primeiro lugar, o que é psicoterapia?",answer:v.jsxs(v.Fragment,{children:[v.jsxs("div",{className:"row-start",children:[v.jsx("h1",{children:"Em primeiro lugar, o que é psicoterapia?"}),v.jsx("p",{children:"A psicoterapia é um processo onde se analisa e busca a melhoria de sofrimentos psicológicos, redução de angústias, resolução de condições emocionais relacionadas a eventos passados, desconfortos cotidianos, dúvidas e questionamentos sobre si mesmo e sua vida."})]}),v.jsx("div",{className:"row-end",children:v.jsx("p",{className:"ident",children:"Pode-se colocar, de maneira geral, que o objetivo final da psicoterapia é permitir que o indivíduo possa se desenvolver para conseguir viver harmonicamente no seu meio e consigo."})})]})},{question:"Quem pode ou deve fazer sessões com psicóloga?",answer:v.jsxs(v.Fragment,{children:[v.jsxs("div",{className:"row-start",children:[v.jsx("h1",{children:"Quem pode ou deve fazer sessões com uma psicóloga?"}),v.jsx("p",{children:"Indo direto ao ponto: não é “coisa de gente louca” e qualquer pessoa pode fazê-la. Essa associação à loucura se deve muito às origens históricas da psicologia como profissão, principalmente pela forte relação com os tratamentos em hospitais psiquiátricos durante o século passado aqui no Brasil."})]}),v.jsxs("div",{className:"row-end",children:[v.jsx("p",{className:"ident",children:"Hoje o cenário é muito diferente, mas essa imagem ainda preconcebida ainda permanece em boa parte da população. Ainda hoje se realizam atendimentos a casos bastante delicados (ex: psicoses, transtornos dissociativos, de personalidade, entre outros) em hospitais e clínicas, mas a atuação do psicólogo é muito mais abrangente. Eu coloquei propositalmente “sessões com um psicólogo” porque os atendimentos não se resumem a trabalhar sobre os transtornos psicológicos."}),v.jsx("p",{className:"ident",children:"Qualquer pessoa pode recorrer a esse atendimento independente de idade, crenças, capacidades cognitivas, tipo de problemas ou situações pelas quais está passando."})]})]})},{question:"Quantos tipos de psicoterapia existem?",answer:v.jsxs(v.Fragment,{children:[v.jsxs("div",{className:"row-start",children:[v.jsx("h1",{children:"Quantos tipos de psicoterapia existem?"}),v.jsx("p",{children:"Tantas quantos psicoterapeutas existentes. É verdade que existe um número limitado de abordagens teóricas - e ainda são diversas! - mas cada processo psicoterapêutico depende da formação do psicólogo, da sua experiência pessoal e profissional, e principalmente, da capacidade em estabelecer um vínculo de confiança com a paciente."}),v.jsx("p",{className:"ident",children:"Podemos pensar nas abordagens teóricas como eixos de referência para cada tipo de psicoterapia (ex. psicanálise freudiana, psicanálise lacaniana, terapia analítico-comportamental, terapia cognitiva, terapia sistêmica, psicodrama, gestalt terapia, terapia centrada na pessoa, histórico-dialética, etc.), mas onde cada relação terapêutica se tornará única por envolver uma terapeuta [com sua formação e leitura própria sobre cada caso] atendendo um paciente com sua história de vida também única e individual."})]}),v.jsxs("div",{className:"row-end",children:[v.jsx("p",{className:"ident",children:"A eficácia da terapia tem muito mais a ver com a capacidade da psicoterapeuta em formar e manter vínculos com diferentes pessoas, se mostrarem empáticos e de se envolver e estudar sobre terapia para além do momento da clínica."}),v.jsx("p",{className:"ident",children:"Algo importante de ressaltar, é que apesar das disputas teóricas entre abordagens, não há diferenças significativas de desfecho quando são comparadas entre si. Em outras palavras, em termos de resultados, as teorias possivelmente importam bem menos do que gostamos de acreditar. "})]})]})}];function $0(){const[e,t]=z.useState(null),n=i=>{t(i===e?null:i)},r=()=>{t(null)};return v.jsxs(T0,{id:"faq",children:[v.jsx("h1",{children:"perguntas frequentes"}),v.jsxs("div",{className:"flex-wrapper",children:[v.jsx("ul",{children:I0.map((i,o)=>v.jsxs("li",{children:[v.jsxs("div",{className:"question",onClick:()=>n(o),children:[v.jsx("span",{children:i.question}),v.jsx("button",{className:"plus",onClick:()=>n(o),children:v.jsx(j0,{size:"2rem"})})]}),e===o&&v.jsx("div",{className:"answer-overlay",children:v.jsxs("div",{className:e!==null?"answer open":"answer closed",children:[v.jsx("div",{className:"text",children:i.answer}),v.jsx("button",{className:"minus",onClick:r,children:v.jsx(O0,{size:"3rem"})})]})})]},o))}),v.jsxs("p",{children:["Peço-lhe, tanto quanto puder, caro senhor, que seja paciente com tudo o que não esteja resolvido em seu coração e tente ter amor pelas próprias perguntas, como se fossem quartos trancados ou livros escritos em uma língua estrangeira. Não busque agora as respostas que não lhe podem ser dadas, porque não poderia vivê-las.",v.jsx("br",{}),"E é disso que se trata, de viver tudo.",v.jsx("br",{}),"Viva agora as perguntas.",v.jsx("br",{}),"Talvez, então, gradativamente, sem notar, em algum dia distante, você venha viver nas respostas.",v.jsx("br",{}),v.jsx("br",{}),v.jsx("span",{children:"Rainer Maria Rilke, em Cartas a um Jovem Poeta"})]})]}),v.jsx("img",{className:"logoWhite",src:L0,alt:"Logo Juliana de Alencar"})]})}const F0=an.div`
     background: ${({theme:e})=>e.COLORS.PURPLE};
     font-family: ${({theme:e})=>e.FONTS.MAIN_FONT};
 
@@ -547,9 +556,10 @@ Error generating stack: `+o.message+`
         flex-direction: column;
         align-items: center;
         gap: 2rem;
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
+
         .instalogo {
-            font-size: 5rem;
+            font-size: 3rem;
 
             display: flex;
             justify-content: center;
@@ -562,12 +572,12 @@ Error generating stack: `+o.message+`
         }
         
         .logoGreen {
-            max-width: 15rem;
+            max-width: 12rem;
         }
         
         button {
             background: #FFF;
-            padding: 1.5rem;
+            padding: 1rem;
             border-radius: 10rem;
             width: 100%;
             font-size: 1.6rem;
@@ -578,6 +588,10 @@ Error generating stack: `+o.message+`
             align-items: center;
             justify-content: center;
         }
+
+        .wpplogo {
+            font-size: 3rem;
+        }
     }
 }
 
@@ -585,7 +599,7 @@ Error generating stack: `+o.message+`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
 
     h1 {
         font-size: 1.8rem;
@@ -593,7 +607,7 @@ Error generating stack: `+o.message+`
         background: #FFF;
         border-radius: 3rem;
         min-width: 100%;
-        padding: 2rem;
+        padding: 1.5rem 2rem;
 
         span {
             line-height: 2.5rem;
@@ -634,10 +648,15 @@ Error generating stack: `+o.message+`
             margin-top: 5rem;
             grid-column: span 2;
             font-size: 2.5rem;
+            padding: 2rem;
 
             a {
                 gap: 3rem;
             }
+
+            .wpplogo {
+            font-size: 5rem;
+        }
         }
         }
 
@@ -647,4 +666,4 @@ Error generating stack: `+o.message+`
         }
         }
     }
-`,M0="/psijudealencar/assets/logo-green-square-qHs0gnQA.png";function A0(){return v.jsxs(F0,{id:"contato",children:[v.jsxs("div",{className:"flex-wrapper",children:[v.jsx("img",{className:"logoGreen",src:M0,alt:"Logo Juliana de Alencar"}),v.jsxs(Ht,{className:"instalogo",to:"https://instagram.com/psi.judealencar",target:"_blank",children:[v.jsx(h0,{})," ",v.jsx("span",{children:"@psi.judealencar"})]}),v.jsx("button",{children:v.jsxs(Ht,{to:"https://wa.me/5548998468897",target:"_blank",rel:"noopener noreferrer",children:[v.jsx(Yd,{size:"5rem"}),"agende uma sessão"]})})]}),v.jsxs("div",{className:"maps",children:[v.jsxs("h1",{children:["Madison Center",v.jsx("br",{}),v.jsx("span",{children:"R. Des. Vítor Lima, 260 - Trindade, Florianópolis - SC"})]}),v.jsx("iframe",{src:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.89614633986!2d-48.52493182361805!3d-27.596749222133255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273854425e9a11%3A0x2d9abdd871aa875d!2sR.%20Des.%20V%C3%ADtor%20Lima%2C%20260%20-%20Trindade%2C%20Florian%C3%B3polis%20-%20SC%2C%2088040-401%2C%20Brasil!5e0!3m2!1spt-BR!2spt!4v1706550343664!5m2!1spt-BR!2spt",allowFullScreen:"",loading:"lazy",referrerPolicy:"no-referrer-when-downgrade"})]})]})}function D0(){const e=z.useRef(null);return l0({ref:e,duration:50,delay:20}),v.jsxs("div",{ref:e,children:[v.jsx(g0,{}),v.jsx(S0,{}),v.jsx(P0,{}),v.jsx($0,{}),v.jsx(A0,{})]})}dl.createRoot(document.getElementById("root")).render(v.jsx(b.StrictMode,{children:v.jsx(Q1,{children:v.jsxs(w1,{theme:q1,children:[v.jsx(X1,{}),v.jsx(Z1,{}),v.jsx(D0,{})]})})}));
+`,M0="/psijudealencar/assets/logo-green-square-qHs0gnQA.png";function A0(){return v.jsxs(F0,{id:"contato",children:[v.jsxs("div",{className:"flex-wrapper",children:[v.jsx("img",{className:"logoGreen",src:M0,alt:"Logo Juliana de Alencar"}),v.jsxs(Ht,{className:"instalogo",to:"https://instagram.com/psi.judealencar",target:"_blank",children:[v.jsx(h0,{})," ",v.jsx("span",{children:"@psi.judealencar"})]}),v.jsx("button",{children:v.jsxs(Ht,{to:"https://wa.me/5548998468897",target:"_blank",rel:"noopener noreferrer",children:[v.jsx(Yd,{className:"wpplogo"}),"agende uma sessão"]})})]}),v.jsxs("div",{className:"maps",children:[v.jsxs("h1",{children:["Madison Center",v.jsx("br",{}),v.jsx("span",{children:"R. Des. Vítor Lima, 260 - Trindade, Florianópolis - SC"})]}),v.jsx("iframe",{src:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.89614633986!2d-48.52493182361805!3d-27.596749222133255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273854425e9a11%3A0x2d9abdd871aa875d!2sR.%20Des.%20V%C3%ADtor%20Lima%2C%20260%20-%20Trindade%2C%20Florian%C3%B3polis%20-%20SC%2C%2088040-401%2C%20Brasil!5e0!3m2!1spt-BR!2spt!4v1706550343664!5m2!1spt-BR!2spt",allowFullScreen:"",loading:"lazy",referrerPolicy:"no-referrer-when-downgrade"})]})]})}function D0(){const e=z.useRef(null);return l0({ref:e,duration:50,delay:20}),v.jsxs("div",{ref:e,children:[v.jsx(g0,{}),v.jsx(S0,{}),v.jsx(P0,{}),v.jsx($0,{}),v.jsx(A0,{})]})}dl.createRoot(document.getElementById("root")).render(v.jsx(b.StrictMode,{children:v.jsx(Q1,{children:v.jsxs(w1,{theme:q1,children:[v.jsx(X1,{}),v.jsx(Z1,{}),v.jsx(D0,{})]})})}));
