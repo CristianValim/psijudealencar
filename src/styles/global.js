@@ -57,8 +57,10 @@ export default createGlobalStyle`
         cursor: pointer;
     }
     
-        header {
+    @media (max-width: 600px) {
+      header {
         display: none;
       } 
     }
+    
 `

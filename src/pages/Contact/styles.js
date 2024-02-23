@@ -15,9 +15,10 @@ export const Container = styled.div`
         flex-direction: column;
         align-items: center;
         gap: 2rem;
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
+
         .instalogo {
-            font-size: 5rem;
+            font-size: 3rem;
 
             display: flex;
             justify-content: center;
@@ -30,12 +31,12 @@ export const Container = styled.div`
         }
         
         .logoGreen {
-            max-width: 15rem;
+            max-width: 12rem;
         }
         
         button {
             background: #FFF;
-            padding: 1.5rem;
+            padding: 1rem;
             border-radius: 10rem;
             width: 100%;
             font-size: 1.6rem;
@@ -46,6 +47,10 @@ export const Container = styled.div`
             align-items: center;
             justify-content: center;
         }
+
+        .wpplogo {
+            font-size: 3rem;
+        }
     }
 }
 
@@ -53,7 +58,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
 
     h1 {
         font-size: 1.8rem;
@@ -61,7 +66,7 @@ export const Container = styled.div`
         background: #FFF;
         border-radius: 3rem;
         min-width: 100%;
-        padding: 2rem;
+        padding: 1.5rem 2rem;
 
         span {
             line-height: 2.5rem;
@@ -102,10 +107,15 @@ export const Container = styled.div`
             margin-top: 5rem;
             grid-column: span 2;
             font-size: 2.5rem;
+            padding: 2rem;
 
             a {
                 gap: 3rem;
             }
+
+            .wpplogo {
+            font-size: 5rem;
+        }
         }
         }
 

@@ -24,13 +24,16 @@ export const Container = styled.div`
         align-items: center;
         justify-content: space-evenly;
         text-align: center;
-        line-height: 2;
+        line-height: 1.5;
         font-size: 1.4rem;
 
+        li {
+            margin-bottom: 2rem;
+        }
         img {
             display: block;
             margin-inline: auto;
-            margin-bottom: 3rem;
+            margin-bottom: 1rem;
             max-width: 10rem;
         }
     }

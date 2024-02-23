@@ -31,7 +31,7 @@ export const questions = [
       )
     },
     {
-      question: 'Quem pode ou deve fazer sessões com uma psicóloga?',
+      question: 'Quem pode ou deve fazer sessões com psicóloga?',
       answer: (
         <>
           <div className="row-start">

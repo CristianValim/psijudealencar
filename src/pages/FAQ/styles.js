@@ -50,7 +50,7 @@ export const Container = styled.div`
         margin-left: auto;
         gap: 3rem;
     }
-
+    
     .flex-wrapper ul li {
         position: relative;
         display: grid;
@@ -67,7 +67,7 @@ export const Container = styled.div`
         background: #FFF;
         box-shadow: .3rem .3rem .5rem rgba(0, 0, 0, 0.4);
     }
-
+    
     button {
         display: grid;
         place-content: center;
@@ -78,12 +78,12 @@ export const Container = styled.div`
         background: ${({ theme }) => theme.COLORS.GREEN};
         box-shadow: .3rem .3rem .5rem rgba(0, 0, 0, 0.4);
     }
-
+    
     .plus {
         bottom: -1rem;
         right: -1rem;
     }
-
+    
     .minus {
         position: fixed;
         top: -2rem;
@@ -91,28 +91,27 @@ export const Container = styled.div`
         width: 7rem;
         height: 7rem;
     }
-
+    
     .flex-wrapper p {
         max-width: 50rem;
         text-align: end;
         font-weight: 300;
         font-style: italic;
-        font-size: clamp(1.4rem, calc(1rem + 1vw), 1.8rem);
-        line-height: 2.1rem;
+        font-size: clamp(1.2rem, calc(1rem + 1vw), 1.8rem);
 
         span {
             font-weight: 400;
             font-style: normal;
         }
     }
-
+    
     .logoWhite {
         max-width: 15%;
         position: absolute;
         bottom: 5%;
         right: 5%;
     }
-
+    
     .answer-overlay {
         position: fixed;
         top: 0;
@@ -180,11 +179,16 @@ export const Container = styled.div`
         .flex-wrapper {
             display: flex;
             flex-wrap: wrap;
+
+            p {
+                margin-top: 5rem;
+            }
         }
 
         .flex-wrapper ul {
             margin-inline: auto;
         }
+
 
         .logoWhite {
             max-width: 30%;

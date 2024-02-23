@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     font-family: ${({ theme }) => theme.FONTS.MAIN_FONT};
-    font-size: clamp(1.4rem, calc(1rem + 1vw), 1.8rem);
+    font-size: clamp(1.2rem, calc(1rem + 1vw), 1.8rem);
     height: 100vh;
     padding-inline: 10%;
     line-height: 1.5;
