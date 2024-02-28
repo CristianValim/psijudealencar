@@ -3,23 +3,20 @@ import styled from "styled-components";
 export const Container = styled.div`
     background: ${({ theme }) => theme.COLORS.PURPLE};
     font-family: ${({ theme }) => theme.FONTS.MAIN_FONT};
-
     position: relative;
     height: 100vh;
     padding-inline: 10%;
     display: grid;
     place-content: center;
+    gap: 3rem;
 
     .flex-wrapper {
         display: flex;
         flex-direction: column;
-        align-items: center;
         gap: 2rem;
-        margin-bottom: 3rem;
 
         .instalogo {
             font-size: 3rem;
-
             display: flex;
             justify-content: center;
             align-items: center;
@@ -29,100 +26,104 @@ export const Container = styled.div`
         span {
             font-size: 1.8rem;
         }
-        
-        .logoGreen {
-            max-width: 12rem;
-        }
-        
+
         button {
             background: #FFF;
             padding: 1rem;
             border-radius: 10rem;
             width: 100%;
-            font-size: 1.6rem;
-
-        a {
+            font-size: 1.8rem;
             display: flex;
-            gap: 1rem;
             align-items: center;
             justify-content: center;
-        }
+            gap: 1rem;
 
-        .wpplogo {
-            font-size: 3rem;
-        }
-    }
-}
+            a {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+            }
 
-.maps {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-
-    h1 {
-        font-size: 1.8rem;
-        font-weight: 600;
-        background: #FFF;
-        border-radius: 3rem;
-        min-width: 100%;
-        padding: 1.5rem 2rem;
-
-        span {
-            line-height: 2.5rem;
-            font-size: 1.6rem;
-            font-weight: 400;
+            .wpplogo {
+                font-size: 3rem;
+            }
         }
     }
 
-    iframe {
-        border-radius: 4rem;
-        border-style: none;
-        min-width: 100%;
-        min-height: 25rem;
-    }
-}
+    .maps {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
 
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            background: #FFF;
+            border-radius: 10rem;
+            min-width: 100%;
+            padding: 1.5rem 3rem;
+
+            span {
+                line-height: 2.5rem;
+                font-size: 1.6rem;
+                font-weight: 400;
+            }
+        }
+
+        iframe {
+            min-height: 30rem;
+            border-radius: 4rem;
+            border-style: none;
+            min-width: 100%;
+            height: 100%;
+        }
+    }
+
+    /* Desktop */
     @media (min-width: 600px) {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        place-content: center;
-        gap: 10%;
+        gap: 20%;
 
         .flex-wrapper {
             display: grid;
             place-items: center;
+            align-content: space-between;
             grid-template-columns: repeat(2, 1fr);
 
             .instalogo {
-                font-size: 9rem;
+                font-size: 7rem;
                 flex-direction: column;
             }
 
             .logoGreen {
-                max-width: 25rem;
+                max-width: 20rem;
             }
 
             button {
-            margin-top: 5rem;
-            grid-column: span 2;
-            font-size: 2.5rem;
-            padding: 2rem;
+                width: 80%;
+                grid-column: span 2;
+                font-size: 3rem;
+                padding: 2rem;
 
-            a {
-                gap: 3rem;
+                a {
+                    gap: 3rem;
+                }
+
+                .wpplogo {
+                    font-size: 5rem;
+                }
             }
-
-            .wpplogo {
-            font-size: 5rem;
-        }
-        }
         }
 
         .maps {
+            h1 {
+                padding: 1.5rem 5rem;
+            }
+
             iframe {
-            min-height: 37rem;
-        }
+                min-height: 35rem;
+            }
         }
     }
-`
+`;

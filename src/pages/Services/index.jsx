@@ -11,38 +11,36 @@ import icon5 from '../../assets/icon-5.png';
 export function Services() {
   return (
     <Container id='sobre-a-psicoterapia'>
-            <h1>sobre a psicoterapia</h1>
+            <h1 className='title'>sobre a psicoterapia</h1>
 
             <div className="flex-wrapper">
-                <ul>
-                    <li>
+                    <figure>
                       <img src={icon1} alt="Icone de uma caneta tinteiro de pena na cor lilas" />
-                      Clínica <br/> sensível e <br/> poética
-                    </li>
+                      <figcaption>Clínica <br/> sensível e poética</figcaption>
+                    </figure>
                       
-                    <li>
+                    <figure>
                       <img src={icon2} alt="Icone da letra grega Psi, simbolo internacional da psicologia." />
-                      Psicoterapia <br/> com base no <br/> construcionismo <br/> social
-                    </li>
+                      <figcaption>Psicoterapia  com base no  construcionismo  social</figcaption>
+                    </figure>
 
-                    <li>
+                    <figure>
                       <img src={icon3} alt="Icone de um rosto jovem." />   
-                      Atendimento <br/> de adolescentes <br/> e adultos
-                    </li>
+                      <figcaption>Atendimento de adolescentes <br /> e adultos</figcaption>
+                    </figure>
 
-                    <li>
+                    <figure>
                       <img src={icon4} alt="Icone de um monitor de computador com a tela em branco." />
-                      Atendimento <br/> online e <br/> presencial
-                    </li>
+                      <figcaption>Atendimento online e presencial</figcaption>
+                    </figure>
                     
-                    <li>
+                    <figure>
                       <img src={icon5} alt="Icone de um coração com faixas nas cores branco, bege, verde e lilas." />
-                      Experiência em <br/> atendimento <br/> com população <br/> LGBTQIA+
-                    </li>
-                </ul>
+                      <figcaption>Experiência em  atendimento com população LGBTQIA+</figcaption>
+                    </figure>
             </div>
 
-            <img className='logoPurple' src={logoPurple} alt="Logo Juliana de Alencar" /> 
+            <img className='logo' src={logoPurple} alt="Logo Juliana de Alencar" /> 
     </Container>
   );
 }
