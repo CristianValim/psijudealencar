@@ -9,13 +9,28 @@ export function FAQ() {
   const [expandedIndex, setExpandedIndex] = useState(null);
 
   const toggleExpanded = (index) => {
-    setExpandedIndex(index === expandedIndex ? null : index);
-  };
+    if (index === expandedIndex) {
+      setExpandedIndex(null);
+      unlockBodyScroll();
+    } else {
+      setExpandedIndex(index);
+      lockBodyScroll();
+    }
+  }
+
+  function lockBodyScroll() {
+    document.body.style.overflow = 'hidden';
+  }
+
+  function unlockBodyScroll() {
+    document.body.style.overflow = '';
+  }
 
   const closeAnswer = () => {
     setExpandedIndex(null);
+    unlockBodyScroll();
   };
-  
+
   return (
     <Container id='faq'>
       <h1 className='title'>perguntas frequentes</h1>

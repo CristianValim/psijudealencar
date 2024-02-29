@@ -37,9 +37,9 @@ export const Container = styled.div`
     .flex-wrapper ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 3rem;
+        gap: 2rem;
         margin-inline: auto;
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
 
         li {
             position: relative;
@@ -150,8 +150,13 @@ export const Container = styled.div`
             font-weight: 400;
             margin-bottom: 2rem;
         }
+
     }
 
+    .no-scroll {
+        overflow: hidden;
+    }
+    
     /* Desktop */
     @media (min-width: 600px) {
         .flex-wrapper {
