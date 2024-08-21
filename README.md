@@ -1,4 +1,4 @@
-![Capa do Projeto]([https://via.placeholder.com/1200x400?text=Psicóloga+Juliana+de+Alencar](https://i.imgur.com/grI9Vtc.png)) 
+![Capa do Projeto](https://i.imgur.com/grI9Vtc.png)
 
 # Psicóloga Juliana de Alencar
 
